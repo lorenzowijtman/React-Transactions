@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+/* Global styles */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  margin: 20px 5px;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+tr {
+  border: 2px solid #000000;
+}
+
+@media (max-width: 576px) {
+  table {
+    margin: 20px 0px;
+  }
+}
+
+/* Common Components and classes */
+.primary-btn {
+  width: 5.5rem;
+  color: #fff;
+  background-color: #EA4E1D;
+  margin: auto;
+  border: 2px solid #fff;
+  padding: 5px;
+}
+
+.primary-btn:hover {
+  cursor: pointer;
+  border: 2px solid #EA4E1D;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.form-span {
+  margin-right: 10px;
+}
