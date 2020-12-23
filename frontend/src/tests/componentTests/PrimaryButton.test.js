@@ -2,7 +2,7 @@ import TestRenderer from 'react-test-renderer';
 import PrimaryButton from "../../components/common/PrimaryButton";
 import React from "react";
 
-function action() {};
+function action() {}
 
 test('PrimaryButton default color test', () => {
     const testRender = TestRenderer.create(

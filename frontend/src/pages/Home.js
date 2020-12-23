@@ -41,7 +41,7 @@ export default function Home() {
                 <br /> Global styles can still be placed in app.css or index.css.
                 <br /> I have also used
                 <a href={'https://react-bootstrap.github.io/'} target={'_blank'} rel={"noreferrer"}> react-bootstrap </a>
-                 to keep the responsiveness simple.
+                to keep the responsiveness simple.
             </p>
             <h3>Server interaction</h3>
             <p>
@@ -59,8 +59,8 @@ export default function Home() {
                 The unit tests can be found in the tests folder and are separated per component and are written
                 with
                 <a href={'https://jestjs.io/en/'} target={'_blank'} rel={"noreferrer"}> jest. </a>
-                Writing unit tests for a web application is a skill I still want to improve upon as I've only worked
-                with JUnit / java testing before. I'm looking forward to improve upon this skill as it is something
+                Writing unit tests for a web application is a skill I still want to improve upon as I have only worked
+                with JUnit / java testing before. I am looking forward to improve upon this skill as it is something
                 I have been wanting to learn for some time now. This techtest was a basic intro to the testing for me.
                 <br /><br />Simply type npm run test to run the written unit tests.
             </p>
@@ -70,7 +70,9 @@ export default function Home() {
                 This file can be used to save the settings for sonarqube and shortens the run command.
                 To run sonarqube, ensure sonarqube and sonarscanner are installed (see the file for some more detailed
                 comments). after setting up the project in sonarqube simply run sonarscanner.bat in the root of
-                this frontend application (inside the frontend folder).
+                this frontend application (inside the frontend folder). Feel free to run it!
+                The only flags are one security hotspot concerning a regex expression and
+                three concerning the alert which i've used for simplicity sake.
             </p>
             <p>
                 Additionally, ESlint has been added to the project to scan for common mistakes and best practices
@@ -93,10 +95,10 @@ export default function Home() {
                     transaction.
                 </p>
                 <li>Delete account</li>
-                    <p>
-                        Seems like it always deleted the first account of the accountscontainer,
-                        now deletes properly
-                    </p>
+                <p>
+                    Seems like it always deleted the first account of the accountscontainer,
+                    now deletes properly
+                </p>
                 <li>Create Account</li>
                 <p>
                     made duplicate ids when an account is deleted, id was based on container length.
