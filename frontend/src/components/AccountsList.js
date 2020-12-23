@@ -22,7 +22,6 @@ export default function AccountsList() {
         }
 
         load();
-
     },[]);
 
     const getData = async () => {
@@ -50,8 +49,6 @@ export default function AccountsList() {
         setAccounts(list);
     }
 
-
-
     const refresh = async () => {
         setLoading(true);
         let data = await getData()
@@ -68,12 +65,16 @@ export default function AccountsList() {
             <div>
                 <h2>Accounts List</h2>
                 <table>
-                    <th>Name</th>
-                    <th>ID</th>
-                    <th>Balance</th>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>ID</th>
+                            <th>Balance</th>
+                        </tr>
+                    </thead>
                     {accounts}
                 </table>
-                <PrimaryButton text={'Refresh'} action={refresh}  />
+                <PrimaryButton text={'Refresh'} action={refresh} backgroundColor={'blue'}  />
             </div>
         );
     }

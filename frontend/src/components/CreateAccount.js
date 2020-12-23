@@ -4,9 +4,7 @@ import {checkName} from "../utils/CommonFunctions";
 import styled from "styled-components";
 import Loading from "./common/Loading";
 
-const Styles = styled.div`
-
-`;
+const Styles = styled.div``;
 
 export default function CreateAccount() {
     const [name, setName] = useState('');

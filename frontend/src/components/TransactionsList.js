@@ -59,11 +59,15 @@ export default function TransactionsList() {
             <div>
                 <h2>Transactions List</h2>
                 <table>
-                    <th>Transaction ID</th>
-                    <th>From(ID)</th>
-                    <th>To(ID)</th>
-                    <th>Amount</th>
-                    <th>Description</th>
+                    <thead>
+                        <tr>
+                            <th>Transaction ID</th>
+                            <th>From(ID)</th>
+                            <th>To(ID)</th>
+                            <th>Amount</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
                     {rows}
                 </table>
                 <PrimaryButton text={'Refresh'} action={refresh} />

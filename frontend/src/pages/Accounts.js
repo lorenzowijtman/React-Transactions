@@ -17,6 +17,7 @@ export default function Accounts() {
     return(
         <Styles>
             <Container>
+                <h1>Accounts</h1>
                 <Row>
                     <Col xs={12} className={'account-component'}>
                         <AccountsList />

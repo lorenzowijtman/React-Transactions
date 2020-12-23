@@ -20,7 +20,8 @@ export default function Home() {
             <h2>Frontend application</h2>
             <p>
                 This frontend application is built with the ReactJS framework and initialized with the
-                create-react-app npx command
+                create-react-app npx command.<br /><br /> Simply run
+                &qout;npm run start&qout; to start the application.
             </p>
             <h3>Components</h3>
             <p>
@@ -55,9 +56,13 @@ export default function Home() {
             </p>
             <h3>Unit tests</h3>
             <p>
-                The unit tests can be found in the tests folder and are separated per component.
-                The unit tests are written with
-                <a href={'https://jestjs.io/en/'} target={'_blank'} rel={"noreferrer"}> jest </a>
+                The unit tests can be found in the tests folder and are separated per component and are written
+                with
+                <a href={'https://jestjs.io/en/'} target={'_blank'} rel={"noreferrer"}> jest. </a>
+                Writing unit tests for a web application is a skill I still want to improve upon as I've only worked
+                with JUnit / java testing before. I'm looking forward to improve upon this skill as it is something
+                I have been wanting to learn for some time now. This techtest was a basic intro to the testing for me.
+                <br /><br />Simply type npm run test to run the written unit tests.
             </p>
             <h3>Extras</h3>
             <p>

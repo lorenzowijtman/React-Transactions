@@ -8,6 +8,7 @@ import TransactionsList from "../components/TransactionsList";
 export default function Transactions() {
     return (
         <Container>
+            <h1>Transactions</h1>
             <Row>
                 <Col xs={12}>
                     <TransactionsList />

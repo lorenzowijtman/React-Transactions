@@ -1,5 +1,4 @@
 export function checkName(name) {
-
     let regex = /^[0-9a-zA-Z]{1,20}$/;
 
     if (!new RegExp(regex).test(name)) {
@@ -10,11 +9,9 @@ export function checkName(name) {
 }
 
 export function checkDescription(description) {
-    let regex = /^[^\s]+[-a-zA-Z0-9\s]+([-a-zA-Z0-9]+)*$/;
-
+    let regex = /^[^\s]+[-a-zA-Z0-9\s]+([-a-zA-Z0-9]+)$/;
 
     if (!new RegExp(regex).test(description)) {
-        console.log(false);
         return false
     } else {
         return true;

@@ -4,9 +4,7 @@ import Loading from "./common/Loading";
 
 import styled from 'styled-components'
 
-const Styles = styled.div`
-
-`;
+const Styles = styled.div``;
 
 export default function DeleteAccount() {
     const [loading, setLoading] = useState(false);
