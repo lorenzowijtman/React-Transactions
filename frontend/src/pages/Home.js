@@ -72,7 +72,7 @@ export default function Home() {
                 comments). after setting up the project in sonarqube simply run sonarscanner.bat in the root of
                 this frontend application (inside the frontend folder). Feel free to run it!
                 The only flags are one security hotspot concerning a regex expression and
-                three concerning the alert which i've used for simplicity sake.
+                three concerning the alert which I have used for simplicity sake.
             </p>
             <p>
                 Additionally, ESlint has been added to the project to scan for common mistakes and best practices
