@@ -8,7 +8,6 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
 import Accounts from "./pages/Accounts";
 import Transactions from "./pages/Transactions";
 
@@ -21,8 +20,7 @@ function App() {
         <Navbar />
         <div>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/accounts" component={Accounts} />
+            <Route exact path="/" component={Accounts} />
             <Route path="/transactions" component={Transactions} />
           </Switch>
         </div>
